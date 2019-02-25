@@ -880,7 +880,7 @@ public class DefaultQueryPlanner extends QueryPlanner {
                 queryTree = FixUnfieldedTermsVisitor.fixUnfieldedTree(config, scannerFactory, metadataHelper, queryTree, expansionFields);
             } catch (CannotExpandUnfieldedTermFatalException e) {
                 // The visitor will only throw this if we cannot expand a term that is not nested in an or.
-                // Hence this query would return no results.
+                // Hence this query is invalid.
                 stopwatch.stop();
                 NotFoundQueryException qe = new NotFoundQueryException(DatawaveErrorCode.UNFIELDED_QUERY_ZERO_MATCHES, e, MessageFormat.format("Query: ",
                                 queryData.getQuery()));

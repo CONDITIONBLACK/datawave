@@ -38,7 +38,9 @@ public class Constants {
     public static final String INDEXED_TERMS_LIST = "INDEXED_TERMS_LIST";
     
     public static final String ANY_FIELD = "_ANYFIELD_";
-    
+
+    public static final String NO_FIELD = "_NOFIELD_";
+
     public static final Authorizations EMPTY_AUTHS = new Authorizations();
     
     public static final ColumnVisibility EMPTY_VISIBILITY = new ColumnVisibility();
