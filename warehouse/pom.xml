@@ -40,7 +40,7 @@
         <!-- <runOrder>random</runOrder> -->
         <runOrder>filesystem</runOrder>
         <!-- default value -->
-        <tests.to.skip />
+        <tests.to.skip/>
         <!-- default value - override on command-line to skip tests -->
         <version.basis-rlp>7.5.0</version.basis-rlp>
         <version.hadoop.processors>2.2.3</version.hadoop.processors>
@@ -92,7 +92,7 @@
             <dependency>
                 <groupId>commons-io</groupId>
                 <artifactId>commons-io</artifactId>
-                <version>2.1</version>
+                <version>2.14.0</version>
             </dependency>
             <dependency>
                 <groupId>commons-logging</groupId>
