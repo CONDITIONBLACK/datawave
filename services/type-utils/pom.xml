@@ -10,7 +10,7 @@
     <version>1.1-SNAPSHOT</version>
     <properties>
         <version.common-utils>1.0</version.common-utils>
-        <version.commons-lang3>3.8.1</version.commons-lang3>
+        <version.commons-lang3>3.18.0</version.commons-lang3>
         <version.commons-net>3.5</version.commons-net>
         <version.geowave>0.9.5</version.geowave>
         <version.hadoop>2.6.0</version.hadoop>
