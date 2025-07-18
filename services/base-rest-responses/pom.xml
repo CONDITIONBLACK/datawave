@@ -9,7 +9,7 @@
     <artifactId>base-rest-responses</artifactId>
     <version>1.1-SNAPSHOT</version>
     <properties>
-        <version.commons-lang3>3.7</version.commons-lang3>
+        <version.commons-lang3>3.18.0</version.commons-lang3>
         <version.microservice.accumulo-utils>1.2</version.microservice.accumulo-utils>
         <version.powermock>1.6.6</version.powermock>
         <version.protostuff>1.5.5</version.protostuff>
